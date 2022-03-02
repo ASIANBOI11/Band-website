@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #929896;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  height: 300px;
+  display: block;
+  padding-top: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  width: 100%;
+  background-color: #a8910f;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.nav-list a:hover {
+  background-color: #ff8e00;
+  transition: 0.4s ease-out;
+}
+
+body {
+}
+
+.homepage {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem;
+}
+
+.bio-page {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid black;
+}
+
+.container {
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.card > img {
+  width: 350px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #5874a7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
